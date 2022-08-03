@@ -17,7 +17,7 @@ export default function Avatar({ isClicked, ...props }) {
   }, [isClicked]);
 
   return (
-    <group ref={group} {...props} dispose={null} scale={0.4}>
+    <group ref={group} {...props} dispose={null} scale={2}>
       <group name="Scene">
         <group name="Armature">
           <primitive object={nodes.Hips} />
